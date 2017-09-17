@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+a {
+  color: inherit;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.toplogo{
+  height: 50px;
+  padding-left: 10px;
+}
+.navigation{
+  margin-right: 15px;
+}
