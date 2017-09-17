@@ -6,6 +6,7 @@ body{
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  justify-content: center;
 }
 a {
   color: inherit;
@@ -14,11 +15,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
+  top: 0px;
   border-bottom: 1px solid seashell;
   height: 69px;
   position: fixed;
   z-index: 1;
   width: 100%;
+  margin-bottom: 0px; /** Based on visual analysis. Seems like there is no margin below the header */
 }
 .toplogo{
   height: 50px;
@@ -26,4 +30,21 @@ header {
 }
 .navigation{
   margin-right: 15px;
+  justify-content: space-between;
+}
+.navigation span{
+  padding: 10px; /* Done to increase padding between nav items. */
+}
+#mission {
+  position: relative;
+  top: 69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+}
+#mission .missiontext{
+  background-color: black;
 }
