@@ -38,6 +38,7 @@ header {
 }
 .navigation span{
   padding: 10px; /* Done to increase padding between nav items. */
+  text-decoration: underline; /*Not done in .nav selector because underlines showing up bw spans */
 }
 /*ALL CSS Styling for the mission banner section */
 #mission {
@@ -61,8 +62,13 @@ header {
 #featuredTea .selectTeas{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
+.berryblitz, .spicedrum, .donuts, .myrtle, .bedford{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 /* The following was done to reduce excess space between the H2 and H4 */
 #featuredTea h2{
   margin-bottom: 0px;
@@ -89,6 +95,23 @@ header {
   opacity: 1;
   width: 300px;
   background-color: black;
-  padding: 1px 15px;
+  padding: 1px 10px;
   margin: 0px 10px;
+}
+
+/*CSS styling for footer section */
+footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.copyright{
+  text-align: left;
+  margin-left: 20px;
 }
