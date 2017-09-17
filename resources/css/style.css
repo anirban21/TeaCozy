@@ -50,8 +50,9 @@ header {
   width: 1200px;
   background-image: url("../../resources/images/img-mission-background.jpg");
 }
-#mission .missiontext{
+.missiontext{
   background-color: black;
+  vertical-align: middle;
 }
 /*All CSS stling for the Tea of the Month sections */
 #featuredTea {
@@ -59,7 +60,7 @@ header {
   flex-direction: column;
   width: 1000px;
 }
-#featuredTea .selectTeas{
+.selectTeas{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -96,7 +97,7 @@ header {
   width: 300px;
   background-color: black;
   padding: 1px 10px;
-  margin: 0px 10px;
+  margin: 15px 20px;
 }
 
 /*CSS styling for footer section */
