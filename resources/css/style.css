@@ -1,3 +1,4 @@
+/*All general CSS stling */
 body{
   display: flex;
   flex-direction: column;
@@ -13,6 +14,7 @@ body{
 a {
   color: inherit;
 }
+/*All CSS styling for the header and navigation sections */
 header {
   display: flex;
   align-items: center;
@@ -37,6 +39,7 @@ header {
 .navigation span{
   padding: 10px; /* Done to increase padding between nav items. */
 }
+/*ALL CSS Styling for the mission banner section */
 #mission {
   margin-top: 69px;
   display: flex;
@@ -49,6 +52,7 @@ header {
 #mission .missiontext{
   background-color: black;
 }
+/*All CSS stling for the Tea of the Month sections */
 #featuredTea {
   display: flex;
   flex-direction: column;
@@ -65,4 +69,26 @@ header {
 }
 .selectTeas h4{
   margin-top: 10px;
+}
+/*All CSS styling for the Locations sections */
+#locations{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 500px;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  width: 1200px;
+}
+#locations .locationboxes{
+  display: flex;
+  justify-content: space-around;
+}
+.downtown, .eastbayside, .oakdale{
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  width: 300px;
+  background-color: black;
+  padding: 1px 15px;
+  margin: 0px 10px;
 }
