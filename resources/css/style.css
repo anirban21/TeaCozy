@@ -1,5 +1,7 @@
 body{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: helvetica;
   font-size: 22px;
   color: seashell;
@@ -36,8 +38,7 @@ header {
   padding: 10px; /* Done to increase padding between nav items. */
 }
 #mission {
-  position: relative;
-  top: 69px;
+  margin-top: 69px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,4 +48,21 @@ header {
 }
 #mission .missiontext{
   background-color: black;
+}
+#featuredTea {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+#featuredTea .selectTeas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/* The following was done to reduce excess space between the H2 and H4 */
+#featuredTea h2{
+  margin-bottom: 0px;
+}
+.selectTeas h4{
+  margin-top: 10px;
 }
